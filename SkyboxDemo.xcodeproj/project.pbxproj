@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC12276F1D2CF46B001BC79F /* UIView+SnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = CC12276E1D2CF46B001BC79F /* UIView+SnapShot.m */; };
+		CC3C85451D2B4DD400549D8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C85441D2B4DD400549D8A /* main.m */; };
+		CC3C85481D2B4DD400549D8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C85471D2B4DD400549D8A /* AppDelegate.m */; };
+		CC3C854B1D2B4DD400549D8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C854A1D2B4DD400549D8A /* ViewController.m */; };
+		CC3C854E1D2B4DD400549D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C854C1D2B4DD400549D8A /* Main.storyboard */; };
+		CC3C85501D2B4DD400549D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3C854F1D2B4DD400549D8A /* Assets.xcassets */; };
+		CC3C85531D2B4DD400549D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85511D2B4DD400549D8A /* LaunchScreen.storyboard */; };
+		CC3C855E1D2B4E2C00549D8A /* GLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C855D1D2B4E2C00549D8A /* GLKContext.m */; };
+		CC3C85671D2B545100549D8A /* Bridge2nx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85601D2B545100549D8A /* Bridge2nx.jpg */; };
+		CC3C85681D2B545100549D8A /* Bridge2ny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85611D2B545100549D8A /* Bridge2ny.jpg */; };
+		CC3C85691D2B545100549D8A /* Bridge2nz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85621D2B545100549D8A /* Bridge2nz.jpg */; };
+		CC3C856A1D2B545100549D8A /* Bridge2px.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85631D2B545100549D8A /* Bridge2px.jpg */; };
+		CC3C856B1D2B545100549D8A /* Bridge2py.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85641D2B545100549D8A /* Bridge2py.jpg */; };
+		CC3C856C1D2B545100549D8A /* Bridge2pz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85651D2B545100549D8A /* Bridge2pz.jpg */; };
+		CC3C856D1D2B545100549D8A /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85661D2B545100549D8A /* readme.txt */; };
+		CC3C85761D2B5CA800549D8A /* Park3Mednx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C856F1D2B5CA800549D8A /* Park3Mednx.jpg */; };
+		CC3C85771D2B5CA800549D8A /* Park3Medny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85701D2B5CA800549D8A /* Park3Medny.jpg */; };
+		CC3C85781D2B5CA800549D8A /* Park3Mednz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85711D2B5CA800549D8A /* Park3Mednz.jpg */; };
+		CC3C85791D2B5CA800549D8A /* Park3Medpx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85721D2B5CA800549D8A /* Park3Medpx.jpg */; };
+		CC3C857A1D2B5CA800549D8A /* Park3Medpy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85731D2B5CA800549D8A /* Park3Medpy.jpg */; };
+		CC3C857B1D2B5CA800549D8A /* Park3Medpz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85741D2B5CA800549D8A /* Park3Medpz.jpg */; };
+		CC3C85841D2B5CC300549D8A /* skyboxnx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C857E1D2B5CC300549D8A /* skyboxnx.jpg */; };
+		CC3C85851D2B5CC300549D8A /* skyboxny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C857F1D2B5CC300549D8A /* skyboxny.jpg */; };
+		CC3C85861D2B5CC300549D8A /* skyboxnz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85801D2B5CC300549D8A /* skyboxnz.jpg */; };
+		CC3C85871D2B5CC300549D8A /* skyboxpx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85811D2B5CC300549D8A /* skyboxpx.jpg */; };
+		CC3C85881D2B5CC300549D8A /* skyboxpy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85821D2B5CC300549D8A /* skyboxpy.jpg */; };
+		CC3C85891D2B5CC300549D8A /* skyboxpz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85831D2B5CC300549D8A /* skyboxpz.jpg */; };
+		CC3C859E1D2B5DED00549D8A /* Eschernx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85921D2B5DED00549D8A /* Eschernx.jpg */; };
+		CC3C859F1D2B5DED00549D8A /* Escherny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85931D2B5DED00549D8A /* Escherny.jpg */; };
+		CC3C85A01D2B5DED00549D8A /* Eschernz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85941D2B5DED00549D8A /* Eschernz.jpg */; };
+		CC3C85A11D2B5DED00549D8A /* Escherpx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85951D2B5DED00549D8A /* Escherpx.jpg */; };
+		CC3C85A21D2B5DED00549D8A /* Escherpy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85961D2B5DED00549D8A /* Escherpy.jpg */; };
+		CC3C85A31D2B5DED00549D8A /* Escherpz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85971D2B5DED00549D8A /* Escherpz.jpg */; };
+		CC3C85AB1D2B5DF300549D8A /* pisanx.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85A51D2B5DF300549D8A /* pisanx.png */; };
+		CC3C85AC1D2B5DF300549D8A /* pisany.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85A61D2B5DF300549D8A /* pisany.png */; };
+		CC3C85AD1D2B5DF300549D8A /* pisanz.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85A71D2B5DF300549D8A /* pisanz.png */; };
+		CC3C85AE1D2B5DF300549D8A /* pisapx.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85A81D2B5DF300549D8A /* pisapx.png */; };
+		CC3C85AF1D2B5DF300549D8A /* pisapy.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85A91D2B5DF300549D8A /* pisapy.png */; };
+		CC3C85B01D2B5DF300549D8A /* pisapz.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85AA1D2B5DF300549D8A /* pisapz.png */; };
+		CC3C85B91D2B5DFA00549D8A /* SwedishRoyalCastlenx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85B21D2B5DFA00549D8A /* SwedishRoyalCastlenx.jpg */; };
+		CC3C85BA1D2B5DFA00549D8A /* SwedishRoyalCastleny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85B31D2B5DFA00549D8A /* SwedishRoyalCastleny.jpg */; };
+		CC3C85BB1D2B5DFA00549D8A /* SwedishRoyalCastlenz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85B41D2B5DFA00549D8A /* SwedishRoyalCastlenz.jpg */; };
+		CC3C85BC1D2B5DFA00549D8A /* SwedishRoyalCastlepx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85B51D2B5DFA00549D8A /* SwedishRoyalCastlepx.jpg */; };
+		CC3C85BD1D2B5DFA00549D8A /* SwedishRoyalCastlepy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85B61D2B5DFA00549D8A /* SwedishRoyalCastlepy.jpg */; };
+		CC3C85BE1D2B5DFA00549D8A /* SwedishRoyalCastlepz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85B71D2B5DFA00549D8A /* SwedishRoyalCastlepz.jpg */; };
+		CC3C85C81D2B5EEB00549D8A /* Park2nx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85C11D2B5EEB00549D8A /* Park2nx.jpg */; };
+		CC3C85C91D2B5EEB00549D8A /* Park2ny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85C21D2B5EEB00549D8A /* Park2ny.jpg */; };
+		CC3C85CA1D2B5EEB00549D8A /* Park2nz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85C31D2B5EEB00549D8A /* Park2nz.jpg */; };
+		CC3C85CB1D2B5EEB00549D8A /* Park2px.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85C41D2B5EEB00549D8A /* Park2px.jpg */; };
+		CC3C85CC1D2B5EEB00549D8A /* Park2py.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85C51D2B5EEB00549D8A /* Park2py.jpg */; };
+		CC3C85CD1D2B5EEB00549D8A /* Park2pz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85C61D2B5EEB00549D8A /* Park2pz.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC12276D1D2CF46B001BC79F /* UIView+SnapShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SnapShot.h"; sourceTree = "<group>"; };
+		CC12276E1D2CF46B001BC79F /* UIView+SnapShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SnapShot.m"; sourceTree = "<group>"; };
+		CC3C85401D2B4DD400549D8A /* SkyboxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyboxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3C85441D2B4DD400549D8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC3C85461D2B4DD400549D8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC3C85471D2B4DD400549D8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC3C85491D2B4DD400549D8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC3C854A1D2B4DD400549D8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC3C854D1D2B4DD400549D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC3C854F1D2B4DD400549D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC3C85521D2B4DD400549D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC3C85541D2B4DD400549D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3C855C1D2B4E2C00549D8A /* GLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKContext.h; sourceTree = "<group>"; };
+		CC3C855D1D2B4E2C00549D8A /* GLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKContext.m; sourceTree = "<group>"; };
+		CC3C85601D2B545100549D8A /* Bridge2nx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bridge2nx.jpg; sourceTree = "<group>"; };
+		CC3C85611D2B545100549D8A /* Bridge2ny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bridge2ny.jpg; sourceTree = "<group>"; };
+		CC3C85621D2B545100549D8A /* Bridge2nz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bridge2nz.jpg; sourceTree = "<group>"; };
+		CC3C85631D2B545100549D8A /* Bridge2px.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bridge2px.jpg; sourceTree = "<group>"; };
+		CC3C85641D2B545100549D8A /* Bridge2py.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bridge2py.jpg; sourceTree = "<group>"; };
+		CC3C85651D2B545100549D8A /* Bridge2pz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bridge2pz.jpg; sourceTree = "<group>"; };
+		CC3C85661D2B545100549D8A /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		CC3C856F1D2B5CA800549D8A /* Park3Mednx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park3Mednx.jpg; sourceTree = "<group>"; };
+		CC3C85701D2B5CA800549D8A /* Park3Medny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park3Medny.jpg; sourceTree = "<group>"; };
+		CC3C85711D2B5CA800549D8A /* Park3Mednz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park3Mednz.jpg; sourceTree = "<group>"; };
+		CC3C85721D2B5CA800549D8A /* Park3Medpx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park3Medpx.jpg; sourceTree = "<group>"; };
+		CC3C85731D2B5CA800549D8A /* Park3Medpy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park3Medpy.jpg; sourceTree = "<group>"; };
+		CC3C85741D2B5CA800549D8A /* Park3Medpz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park3Medpz.jpg; sourceTree = "<group>"; };
+		CC3C857E1D2B5CC300549D8A /* skyboxnx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skyboxnx.jpg; sourceTree = "<group>"; };
+		CC3C857F1D2B5CC300549D8A /* skyboxny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skyboxny.jpg; sourceTree = "<group>"; };
+		CC3C85801D2B5CC300549D8A /* skyboxnz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skyboxnz.jpg; sourceTree = "<group>"; };
+		CC3C85811D2B5CC300549D8A /* skyboxpx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skyboxpx.jpg; sourceTree = "<group>"; };
+		CC3C85821D2B5CC300549D8A /* skyboxpy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skyboxpy.jpg; sourceTree = "<group>"; };
+		CC3C85831D2B5CC300549D8A /* skyboxpz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skyboxpz.jpg; sourceTree = "<group>"; };
+		CC3C85921D2B5DED00549D8A /* Eschernx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eschernx.jpg; sourceTree = "<group>"; };
+		CC3C85931D2B5DED00549D8A /* Escherny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Escherny.jpg; sourceTree = "<group>"; };
+		CC3C85941D2B5DED00549D8A /* Eschernz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eschernz.jpg; sourceTree = "<group>"; };
+		CC3C85951D2B5DED00549D8A /* Escherpx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Escherpx.jpg; sourceTree = "<group>"; };
+		CC3C85961D2B5DED00549D8A /* Escherpy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Escherpy.jpg; sourceTree = "<group>"; };
+		CC3C85971D2B5DED00549D8A /* Escherpz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Escherpz.jpg; sourceTree = "<group>"; };
+		CC3C85A51D2B5DF300549D8A /* pisanx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pisanx.png; sourceTree = "<group>"; };
+		CC3C85A61D2B5DF300549D8A /* pisany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pisany.png; sourceTree = "<group>"; };
+		CC3C85A71D2B5DF300549D8A /* pisanz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pisanz.png; sourceTree = "<group>"; };
+		CC3C85A81D2B5DF300549D8A /* pisapx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pisapx.png; sourceTree = "<group>"; };
+		CC3C85A91D2B5DF300549D8A /* pisapy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pisapy.png; sourceTree = "<group>"; };
+		CC3C85AA1D2B5DF300549D8A /* pisapz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pisapz.png; sourceTree = "<group>"; };
+		CC3C85B21D2B5DFA00549D8A /* SwedishRoyalCastlenx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwedishRoyalCastlenx.jpg; sourceTree = "<group>"; };
+		CC3C85B31D2B5DFA00549D8A /* SwedishRoyalCastleny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwedishRoyalCastleny.jpg; sourceTree = "<group>"; };
+		CC3C85B41D2B5DFA00549D8A /* SwedishRoyalCastlenz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwedishRoyalCastlenz.jpg; sourceTree = "<group>"; };
+		CC3C85B51D2B5DFA00549D8A /* SwedishRoyalCastlepx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwedishRoyalCastlepx.jpg; sourceTree = "<group>"; };
+		CC3C85B61D2B5DFA00549D8A /* SwedishRoyalCastlepy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwedishRoyalCastlepy.jpg; sourceTree = "<group>"; };
+		CC3C85B71D2B5DFA00549D8A /* SwedishRoyalCastlepz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwedishRoyalCastlepz.jpg; sourceTree = "<group>"; };
+		CC3C85C11D2B5EEB00549D8A /* Park2nx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park2nx.jpg; sourceTree = "<group>"; };
+		CC3C85C21D2B5EEB00549D8A /* Park2ny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park2ny.jpg; sourceTree = "<group>"; };
+		CC3C85C31D2B5EEB00549D8A /* Park2nz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park2nz.jpg; sourceTree = "<group>"; };
+		CC3C85C41D2B5EEB00549D8A /* Park2px.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park2px.jpg; sourceTree = "<group>"; };
+		CC3C85C51D2B5EEB00549D8A /* Park2py.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park2py.jpg; sourceTree = "<group>"; };
+		CC3C85C61D2B5EEB00549D8A /* Park2pz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park2pz.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3C853D1D2B4DD400549D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3C85371D2B4DD400549D8A = {
+			isa = PBXGroup;
+			children = (
+				CC3C85421D2B4DD400549D8A /* SkyboxDemo */,
+				CC3C85411D2B4DD400549D8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3C85411D2B4DD400549D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C85401D2B4DD400549D8A /* SkyboxDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3C85421D2B4DD400549D8A /* SkyboxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC12276D1D2CF46B001BC79F /* UIView+SnapShot.h */,
+				CC12276E1D2CF46B001BC79F /* UIView+SnapShot.m */,
+				CC3C85461D2B4DD400549D8A /* AppDelegate.h */,
+				CC3C85471D2B4DD400549D8A /* AppDelegate.m */,
+				CC3C85491D2B4DD400549D8A /* ViewController.h */,
+				CC3C854A1D2B4DD400549D8A /* ViewController.m */,
+				CC3C855C1D2B4E2C00549D8A /* GLKContext.h */,
+				CC3C855D1D2B4E2C00549D8A /* GLKContext.m */,
+				CC3C854C1D2B4DD400549D8A /* Main.storyboard */,
+				CC3C854F1D2B4DD400549D8A /* Assets.xcassets */,
+				CC3C85511D2B4DD400549D8A /* LaunchScreen.storyboard */,
+				CC3C85541D2B4DD400549D8A /* Info.plist */,
+				CC3C85431D2B4DD400549D8A /* Supporting Files */,
+			);
+			path = SkyboxDemo;
+			sourceTree = "<group>";
+		};
+		CC3C85431D2B4DD400549D8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C85C01D2B5EEB00549D8A /* Park2 */,
+				CC3C85B11D2B5DFA00549D8A /* SwedishRoyalCastle */,
+				CC3C85A41D2B5DF300549D8A /* pisa */,
+				CC3C858A1D2B5DED00549D8A /* Escher */,
+				CC3C857D1D2B5CC300549D8A /* skybox */,
+				CC3C856E1D2B5CA800549D8A /* Park3Med */,
+				CC3C855F1D2B545100549D8A /* Bridge2 */,
+				CC3C85441D2B4DD400549D8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC3C855F1D2B545100549D8A /* Bridge2 */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C85601D2B545100549D8A /* Bridge2nx.jpg */,
+				CC3C85611D2B545100549D8A /* Bridge2ny.jpg */,
+				CC3C85621D2B545100549D8A /* Bridge2nz.jpg */,
+				CC3C85631D2B545100549D8A /* Bridge2px.jpg */,
+				CC3C85641D2B545100549D8A /* Bridge2py.jpg */,
+				CC3C85651D2B545100549D8A /* Bridge2pz.jpg */,
+				CC3C85661D2B545100549D8A /* readme.txt */,
+			);
+			path = Bridge2;
+			sourceTree = "<group>";
+		};
+		CC3C856E1D2B5CA800549D8A /* Park3Med */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C856F1D2B5CA800549D8A /* Park3Mednx.jpg */,
+				CC3C85701D2B5CA800549D8A /* Park3Medny.jpg */,
+				CC3C85711D2B5CA800549D8A /* Park3Mednz.jpg */,
+				CC3C85721D2B5CA800549D8A /* Park3Medpx.jpg */,
+				CC3C85731D2B5CA800549D8A /* Park3Medpy.jpg */,
+				CC3C85741D2B5CA800549D8A /* Park3Medpz.jpg */,
+			);
+			path = Park3Med;
+			sourceTree = "<group>";
+		};
+		CC3C857D1D2B5CC300549D8A /* skybox */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C857E1D2B5CC300549D8A /* skyboxnx.jpg */,
+				CC3C857F1D2B5CC300549D8A /* skyboxny.jpg */,
+				CC3C85801D2B5CC300549D8A /* skyboxnz.jpg */,
+				CC3C85811D2B5CC300549D8A /* skyboxpx.jpg */,
+				CC3C85821D2B5CC300549D8A /* skyboxpy.jpg */,
+				CC3C85831D2B5CC300549D8A /* skyboxpz.jpg */,
+			);
+			path = skybox;
+			sourceTree = "<group>";
+		};
+		CC3C858A1D2B5DED00549D8A /* Escher */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C85921D2B5DED00549D8A /* Eschernx.jpg */,
+				CC3C85931D2B5DED00549D8A /* Escherny.jpg */,
+				CC3C85941D2B5DED00549D8A /* Eschernz.jpg */,
+				CC3C85951D2B5DED00549D8A /* Escherpx.jpg */,
+				CC3C85961D2B5DED00549D8A /* Escherpy.jpg */,
+				CC3C85971D2B5DED00549D8A /* Escherpz.jpg */,
+			);
+			path = Escher;
+			sourceTree = "<group>";
+		};
+		CC3C85A41D2B5DF300549D8A /* pisa */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C85A51D2B5DF300549D8A /* pisanx.png */,
+				CC3C85A61D2B5DF300549D8A /* pisany.png */,
+				CC3C85A71D2B5DF300549D8A /* pisanz.png */,
+				CC3C85A81D2B5DF300549D8A /* pisapx.png */,
+				CC3C85A91D2B5DF300549D8A /* pisapy.png */,
+				CC3C85AA1D2B5DF300549D8A /* pisapz.png */,
+			);
+			path = pisa;
+			sourceTree = "<group>";
+		};
+		CC3C85B11D2B5DFA00549D8A /* SwedishRoyalCastle */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C85B21D2B5DFA00549D8A /* SwedishRoyalCastlenx.jpg */,
+				CC3C85B31D2B5DFA00549D8A /* SwedishRoyalCastleny.jpg */,
+				CC3C85B41D2B5DFA00549D8A /* SwedishRoyalCastlenz.jpg */,
+				CC3C85B51D2B5DFA00549D8A /* SwedishRoyalCastlepx.jpg */,
+				CC3C85B61D2B5DFA00549D8A /* SwedishRoyalCastlepy.jpg */,
+				CC3C85B71D2B5DFA00549D8A /* SwedishRoyalCastlepz.jpg */,
+			);
+			path = SwedishRoyalCastle;
+			sourceTree = "<group>";
+		};
+		CC3C85C01D2B5EEB00549D8A /* Park2 */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C85C11D2B5EEB00549D8A /* Park2nx.jpg */,
+				CC3C85C21D2B5EEB00549D8A /* Park2ny.jpg */,
+				CC3C85C31D2B5EEB00549D8A /* Park2nz.jpg */,
+				CC3C85C41D2B5EEB00549D8A /* Park2px.jpg */,
+				CC3C85C51D2B5EEB00549D8A /* Park2py.jpg */,
+				CC3C85C61D2B5EEB00549D8A /* Park2pz.jpg */,
+			);
+			path = Park2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3C853F1D2B4DD400549D8A /* SkyboxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3C85571D2B4DD400549D8A /* Build configuration list for PBXNativeTarget "SkyboxDemo" */;
+			buildPhases = (
+				CC3C853C1D2B4DD400549D8A /* Sources */,
+				CC3C853D1D2B4DD400549D8A /* Frameworks */,
+				CC3C853E1D2B4DD400549D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyboxDemo;
+			productName = SkyboxDemo;
+			productReference = CC3C85401D2B4DD400549D8A /* SkyboxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3C85381D2B4DD400549D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yanmingjun;
+				TargetAttributes = {
+					CC3C853F1D2B4DD400549D8A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CC3C853B1D2B4DD400549D8A /* Build configuration list for PBXProject "SkyboxDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3C85371D2B4DD400549D8A;
+			productRefGroup = CC3C85411D2B4DD400549D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3C853F1D2B4DD400549D8A /* SkyboxDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3C853E1D2B4DD400549D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3C85851D2B5CC300549D8A /* skyboxny.jpg in Resources */,
+				CC3C85771D2B5CA800549D8A /* Park3Medny.jpg in Resources */,
+				CC3C857B1D2B5CA800549D8A /* Park3Medpz.jpg in Resources */,
+				CC3C85531D2B4DD400549D8A /* LaunchScreen.storyboard in Resources */,
+				CC3C856C1D2B545100549D8A /* Bridge2pz.jpg in Resources */,
+				CC3C859E1D2B5DED00549D8A /* Eschernx.jpg in Resources */,
+				CC3C85CC1D2B5EEB00549D8A /* Park2py.jpg in Resources */,
+				CC3C856A1D2B545100549D8A /* Bridge2px.jpg in Resources */,
+				CC3C85671D2B545100549D8A /* Bridge2nx.jpg in Resources */,
+				CC3C85C91D2B5EEB00549D8A /* Park2ny.jpg in Resources */,
+				CC3C85B01D2B5DF300549D8A /* pisapz.png in Resources */,
+				CC3C85781D2B5CA800549D8A /* Park3Mednz.jpg in Resources */,
+				CC3C85B91D2B5DFA00549D8A /* SwedishRoyalCastlenx.jpg in Resources */,
+				CC3C85AF1D2B5DF300549D8A /* pisapy.png in Resources */,
+				CC3C85A31D2B5DED00549D8A /* Escherpz.jpg in Resources */,
+				CC3C85BD1D2B5DFA00549D8A /* SwedishRoyalCastlepy.jpg in Resources */,
+				CC3C85A11D2B5DED00549D8A /* Escherpx.jpg in Resources */,
+				CC3C856D1D2B545100549D8A /* readme.txt in Resources */,
+				CC3C85BB1D2B5DFA00549D8A /* SwedishRoyalCastlenz.jpg in Resources */,
+				CC3C85501D2B4DD400549D8A /* Assets.xcassets in Resources */,
+				CC3C85AB1D2B5DF300549D8A /* pisanx.png in Resources */,
+				CC3C85C81D2B5EEB00549D8A /* Park2nx.jpg in Resources */,
+				CC3C856B1D2B545100549D8A /* Bridge2py.jpg in Resources */,
+				CC3C85AD1D2B5DF300549D8A /* pisanz.png in Resources */,
+				CC3C859F1D2B5DED00549D8A /* Escherny.jpg in Resources */,
+				CC3C85861D2B5CC300549D8A /* skyboxnz.jpg in Resources */,
+				CC3C854E1D2B4DD400549D8A /* Main.storyboard in Resources */,
+				CC3C85881D2B5CC300549D8A /* skyboxpy.jpg in Resources */,
+				CC3C85BA1D2B5DFA00549D8A /* SwedishRoyalCastleny.jpg in Resources */,
+				CC3C85CD1D2B5EEB00549D8A /* Park2pz.jpg in Resources */,
+				CC3C85AE1D2B5DF300549D8A /* pisapx.png in Resources */,
+				CC3C85841D2B5CC300549D8A /* skyboxnx.jpg in Resources */,
+				CC3C85791D2B5CA800549D8A /* Park3Medpx.jpg in Resources */,
+				CC3C85CB1D2B5EEB00549D8A /* Park2px.jpg in Resources */,
+				CC3C85CA1D2B5EEB00549D8A /* Park2nz.jpg in Resources */,
+				CC3C85681D2B545100549D8A /* Bridge2ny.jpg in Resources */,
+				CC3C85BE1D2B5DFA00549D8A /* SwedishRoyalCastlepz.jpg in Resources */,
+				CC3C85AC1D2B5DF300549D8A /* pisany.png in Resources */,
+				CC3C85691D2B545100549D8A /* Bridge2nz.jpg in Resources */,
+				CC3C857A1D2B5CA800549D8A /* Park3Medpy.jpg in Resources */,
+				CC3C85761D2B5CA800549D8A /* Park3Mednx.jpg in Resources */,
+				CC3C85BC1D2B5DFA00549D8A /* SwedishRoyalCastlepx.jpg in Resources */,
+				CC3C85A01D2B5DED00549D8A /* Eschernz.jpg in Resources */,
+				CC3C85871D2B5CC300549D8A /* skyboxpx.jpg in Resources */,
+				CC3C85A21D2B5DED00549D8A /* Escherpy.jpg in Resources */,
+				CC3C85891D2B5CC300549D8A /* skyboxpz.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3C853C1D2B4DD400549D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3C854B1D2B4DD400549D8A /* ViewController.m in Sources */,
+				CC3C85481D2B4DD400549D8A /* AppDelegate.m in Sources */,
+				CC12276F1D2CF46B001BC79F /* UIView+SnapShot.m in Sources */,
+				CC3C855E1D2B4E2C00549D8A /* GLKContext.m in Sources */,
+				CC3C85451D2B4DD400549D8A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC3C854C1D2B4DD400549D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3C854D1D2B4DD400549D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC3C85511D2B4DD400549D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3C85521D2B4DD400549D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3C85551D2B4DD400549D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC3C85561D2B4DD400549D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3C85581D2B4DD400549D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyboxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youloft.SkyboxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC3C85591D2B4DD400549D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyboxDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youloft.SkyboxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3C853B1D2B4DD400549D8A /* Build configuration list for PBXProject "SkyboxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3C85551D2B4DD400549D8A /* Debug */,
+				CC3C85561D2B4DD400549D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3C85571D2B4DD400549D8A /* Build configuration list for PBXNativeTarget "SkyboxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3C85581D2B4DD400549D8A /* Debug */,
+				CC3C85591D2B4DD400549D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3C85381D2B4DD400549D8A /* Project object */;
+}

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC12276F1D2CF46B001BC79F /* UIView+SnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = CC12276E1D2CF46B001BC79F /* UIView+SnapShot.m */; };
 		CC3C85451D2B4DD400549D8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C85441D2B4DD400549D8A /* main.m */; };
 		CC3C85481D2B4DD400549D8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C85471D2B4DD400549D8A /* AppDelegate.m */; };
 		CC3C854B1D2B4DD400549D8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C854A1D2B4DD400549D8A /* ViewController.m */; };
@@ -62,8 +61,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC12276D1D2CF46B001BC79F /* UIView+SnapShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SnapShot.h"; sourceTree = "<group>"; };
-		CC12276E1D2CF46B001BC79F /* UIView+SnapShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SnapShot.m"; sourceTree = "<group>"; };
 		CC3C85401D2B4DD400549D8A /* SkyboxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyboxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3C85441D2B4DD400549D8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC3C85461D2B4DD400549D8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,8 +151,6 @@
 		CC3C85421D2B4DD400549D8A /* SkyboxDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CC12276D1D2CF46B001BC79F /* UIView+SnapShot.h */,
-				CC12276E1D2CF46B001BC79F /* UIView+SnapShot.m */,
 				CC3C85461D2B4DD400549D8A /* AppDelegate.h */,
 				CC3C85471D2B4DD400549D8A /* AppDelegate.m */,
 				CC3C85491D2B4DD400549D8A /* ViewController.h */,
@@ -396,7 +391,6 @@
 			files = (
 				CC3C854B1D2B4DD400549D8A /* ViewController.m in Sources */,
 				CC3C85481D2B4DD400549D8A /* AppDelegate.m in Sources */,
-				CC12276F1D2CF46B001BC79F /* UIView+SnapShot.m in Sources */,
 				CC3C855E1D2B4E2C00549D8A /* GLKContext.m in Sources */,
 				CC4664D31D2E0A83003DD7A9 /* RenderingEngine.m in Sources */,
 				CC3C85451D2B4DD400549D8A /* main.m in Sources */,

@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "UIView+SnapShot.h"
 #import "IRenderingEngine.h"
 
 @interface ViewController ()
@@ -93,8 +92,8 @@
     if (self.textureIndex > 6) {
         self.textureIndex = 0;
     }
+    UIImage *image = [(GLKView *)self.view snapshot];
     self.renderingEngine.currentTextureIndex = self.textureIndex;
-    UIImage *image = [self.view capture];
     UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
     [self.view addSubview:imageView];
     self.animationImageView = imageView;

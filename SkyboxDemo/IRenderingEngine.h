@@ -35,3 +35,5 @@
 - (void)onFingerPinch:(CGFloat)scale;
 
 @end
+
+id<IRenderingEngine> CreateRenderingEngine(GLKView *view);

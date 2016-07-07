@@ -11,6 +11,10 @@
 
 static const CGFloat defaultFovy = 80.0f;
 
+id<IRenderingEngine> CreateRenderingEngine(GLKView *view) {
+    return [[RenderingEngine alloc] initWithGLKView:view];
+}
+
 @interface RenderingEngine ()
 
 @property (nonatomic, weak) GLKView *glView;

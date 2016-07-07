@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "UIView+SnapShot.h"
-#import "RenderingEngine.h"
+#import "IRenderingEngine.h"
 
 @interface ViewController ()
 @property (nonatomic) NSInteger textureIndex;
@@ -16,7 +16,7 @@
 @property (nonatomic, weak) IBOutlet UIButton *testButton;
 @property (nonatomic, weak) UIImageView *animationImageView;
 @property (nonatomic) BOOL needAnimation;
-@property (nonatomic, strong) RenderingEngine *renderingEngine;
+@property (nonatomic, strong) id<IRenderingEngine> renderingEngine;
 
 @end
 
@@ -58,7 +58,7 @@
 
 - (void)setupUI {
     GLKView *view = (GLKView *)self.view;
-    _renderingEngine = [[RenderingEngine alloc] initWithGLKView:view];
+    _renderingEngine = CreateRenderingEngine(view);
     _renderingEngine.textureNames = @[@"Park2", @"SwedishRoyalCastle", @"pisa", @"Escher", @"skybox", @"Park3Med", @"Bridge2"];
     
     UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureHandle:)];

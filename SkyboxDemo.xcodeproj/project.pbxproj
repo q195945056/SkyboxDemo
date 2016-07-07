@@ -58,6 +58,7 @@
 		CC3C85CB1D2B5EEB00549D8A /* Park2px.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85C41D2B5EEB00549D8A /* Park2px.jpg */; };
 		CC3C85CC1D2B5EEB00549D8A /* Park2py.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85C51D2B5EEB00549D8A /* Park2py.jpg */; };
 		CC3C85CD1D2B5EEB00549D8A /* Park2pz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC3C85C61D2B5EEB00549D8A /* Park2pz.jpg */; };
+		CC4664D31D2E0A83003DD7A9 /* RenderingEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4664D21D2E0A83003DD7A9 /* RenderingEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +119,9 @@
 		CC3C85C41D2B5EEB00549D8A /* Park2px.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park2px.jpg; sourceTree = "<group>"; };
 		CC3C85C51D2B5EEB00549D8A /* Park2py.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park2py.jpg; sourceTree = "<group>"; };
 		CC3C85C61D2B5EEB00549D8A /* Park2pz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Park2pz.jpg; sourceTree = "<group>"; };
+		CC4664D01D2E0A83003DD7A9 /* IRenderingEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRenderingEngine.h; sourceTree = "<group>"; };
+		CC4664D11D2E0A83003DD7A9 /* RenderingEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderingEngine.h; sourceTree = "<group>"; };
+		CC4664D21D2E0A83003DD7A9 /* RenderingEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderingEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,9 @@
 				CC3C854A1D2B4DD400549D8A /* ViewController.m */,
 				CC3C855C1D2B4E2C00549D8A /* GLKContext.h */,
 				CC3C855D1D2B4E2C00549D8A /* GLKContext.m */,
+				CC4664D01D2E0A83003DD7A9 /* IRenderingEngine.h */,
+				CC4664D11D2E0A83003DD7A9 /* RenderingEngine.h */,
+				CC4664D21D2E0A83003DD7A9 /* RenderingEngine.m */,
 				CC3C854C1D2B4DD400549D8A /* Main.storyboard */,
 				CC3C854F1D2B4DD400549D8A /* Assets.xcassets */,
 				CC3C85511D2B4DD400549D8A /* LaunchScreen.storyboard */,
@@ -391,6 +398,7 @@
 				CC3C85481D2B4DD400549D8A /* AppDelegate.m in Sources */,
 				CC12276F1D2CF46B001BC79F /* UIView+SnapShot.m in Sources */,
 				CC3C855E1D2B4E2C00549D8A /* GLKContext.m in Sources */,
+				CC4664D31D2E0A83003DD7A9 /* RenderingEngine.m in Sources */,
 				CC3C85451D2B4DD400549D8A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
